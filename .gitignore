@@ -1,4 +1,22 @@
-venv/
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sensitive configs
 config.py
+
+# Others
+*.log
+*.sqlite3
+.ipynb_checkpoints/
+
